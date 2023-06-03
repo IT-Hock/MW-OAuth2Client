@@ -18,9 +18,7 @@
 		"OAuth2ClientAlias": "OAuth2Client.alias.php"
 	},
 	"Hooks": {
-		"PersonalUrls": [
-			"OAuth2ClientHooks::onPersonalUrls"
-		]
+		"SkinTemplateNavigation::Universal": "OAuth2ClientHooks::onSkinTemplateNavigationUniversal"
 	},
 	"SpecialPages": {
 		"OAuth2Client": "SpecialOAuth2Client"
